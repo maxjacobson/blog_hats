@@ -41,4 +41,5 @@ gem 'spring',        group: :development
 # Install Testing Frameworks
 gem 'rspec-rails'
 gem 'capybara'
-
+gem 'database_cleaner'
+gem 'cucumber-rails'
