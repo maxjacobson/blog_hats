@@ -7,4 +7,4 @@ Feature: User can view Post
     Given there is a post called "Why 6 hats comments rule"
     When I go to the main page
     Then I will see a post with title "Why 6 hats comments rule"
-    #Then user will see a blog post with a link to comments
+    Then user will see a blog post with a link to comment_link "See Comments"

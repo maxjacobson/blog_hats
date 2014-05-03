@@ -9,3 +9,7 @@ end
 Then(/^I will see a post with title "(.*?)"$/) do |title|
   page.should have_content title
 end
+
+Then(/^user will see a blog post with a link to comment_link "(.*?)"$/) do |comment_link|
+  page.should have_content comment_link
+end
