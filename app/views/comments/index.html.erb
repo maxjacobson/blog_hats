@@ -1,0 +1,5 @@
+<%= render "posts/summary", :post => @commentable %>
+<% @comments.each do |comment| %>
+  <%= comment.category %>
+  <%= comment.body %>
+<% end %>
